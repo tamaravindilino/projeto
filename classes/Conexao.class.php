@@ -8,10 +8,10 @@
 
         public function __construct()
         {
-            $this->servidor = "localhost";
-            $this->banco = "projeto";
-            $this->usuario = "postgres";
-            $this->senha = "mttpocos";
+            $this->servidor = "ec2-3-209-39-2.compute-1.amazonaws.com";
+            $this->banco = "d44gm85t4b97r4";
+            $this->usuario = "fdoflfpibivkcf";
+            $this->senha = "f23d566191aa97b4bd576f8889a92c1bd056efb98b2f49eba406a5aa64bb5e61";
         }
 
         public function conectar()
